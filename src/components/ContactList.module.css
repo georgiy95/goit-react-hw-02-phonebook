@@ -18,8 +18,19 @@
   padding-right: 10px;
   border: 1px solid rgba(5, 5, 5, 0.2);
   transition: background-color var(--trans-hv);
+  background: white;
+  color: red;
+  text-transform: capitalize;
 }
+
+/* font-size: 24px;
+border: 1px solid rgba(5, 5, 5, 0.2);
+margin-left: auto;
+margin-right: auto;
+
+background: rgb(0, 4, 255); */
 
 .del-btn:hover {
   background-color: red;
+  color: white;
 }
