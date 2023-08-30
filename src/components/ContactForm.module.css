@@ -23,6 +23,7 @@
   outline-color: blue;
   width: 300px;
   border-color: rgb(0, 4, 255);
+  border-radius: 5px;
 }
 
 .contact-btn {
