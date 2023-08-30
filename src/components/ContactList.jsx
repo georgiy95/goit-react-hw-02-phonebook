@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 
 export const ContactList = ({ contacts, onDel }) => {
     return (
-        <ul className={css.list}>
+        <ol className={css.list}>
             {contacts.map(contact => {
                 const { id, name, number } = contact;
                 return <ContactItem key={id} id={id} name={name} number={number} onDel={onDel}/>
             })}
-        </ul>
+        </ol>
     )
     
 }
