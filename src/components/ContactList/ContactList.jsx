@@ -9,7 +9,7 @@ const ContactList = ({ contacts, filterText, handleDelete }) => {
   );
 
   return (
-    <ul className={styles.contactsList}>
+    <ol className={styles.contactsList}>
       {filteredContacts.map(({ id, name, number }) => (
         <li key={id} className={styles.contactsItem}>
           <p className={styles.contactsName}>
@@ -25,7 +25,7 @@ const ContactList = ({ contacts, filterText, handleDelete }) => {
           </button>
         </li>
       ))}
-    </ul>
+    </ol>
   );
 };
 

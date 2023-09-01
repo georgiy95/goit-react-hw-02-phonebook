@@ -1,17 +1,14 @@
 .filterLabel {
-  font-size: 20px;
-  font-weight: 600;
-
-  margin-bottom: 15px;
+  color: #0004ff;
+  font-size: 24px;
 }
 
 .filterInput {
   display: block;
   margin-top: 10px;
-  padding: 10px 20px;
-
+  border-color: #0004ff;
+  border-radius: 5px;
   text-transform: capitalize;
-  border: 2px solid lightskyblue;
-  border-radius: 10px;
-  outline: none;
+  font-size: 18px;
+  width: 300px;
 }
