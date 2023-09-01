@@ -1,0 +1,23 @@
+.contactsList {
+  width: 300px;
+  max-width: 100%;
+  padding: 0;
+}
+
+.contactsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.contactsName {
+  text-transform: capitalize;
+}
+
+.contactsBtn {
+  padding: 5px 15px;
+
+  cursor: pointer;
+}
