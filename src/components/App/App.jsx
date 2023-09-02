@@ -8,8 +8,8 @@ class App extends Component {
     contacts: [],
     filter: "",
   };
-  handleAddContact(newContact) {
-    console.log(this.state);
+  
+    handleAddContact(newContact) {
     this.setState((prevState) => ({
       contacts: [...prevState.contacts, newContact],
     }));
@@ -23,7 +23,7 @@ class App extends Component {
     const filteredContacts = this.state.contacts.filter(
       (contact) => contact.id !== id
     );
-    this.setState({ contacts: filteredContacts });
+    this.setState(prevState =>({ contacts: filteredContacts }));
   }
   render() {
     const { contacts, filter } = this.state;
@@ -51,3 +51,4 @@ class App extends Component {
   }
 }
 export default App;
+
